@@ -9,9 +9,9 @@ int main()
  
     printf("Program will sleep for 10 millisecond .\n");
  
-    sleep(0.01);
+    sleep(15);
  
-    printf("This line will be executed after 10 millisecond.");
+    printf("This line will be executed after 15 second.");
  
     return 0;
 }
