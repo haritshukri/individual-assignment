@@ -3,6 +3,8 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <signal.h>
+
 #define MAX_LIMIT 80
 
 void sigint_handler(int sig_num){
