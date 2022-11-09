@@ -21,8 +21,8 @@ int main(int argc, char* argv[]){
 		close(fd[0]);
 		int x;
 		printf("Input a number: ");
-		scanf("%d", x);
-		write( int fd[1], &x, sizeof(int));
+		scanf("%d", &x);
+		write(fd[1], &x, sizeof(int));
 		close(fd[1]);
 		} else{
 		close(fd[1]);
